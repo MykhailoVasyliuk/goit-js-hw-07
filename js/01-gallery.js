@@ -38,7 +38,7 @@ function onGalleryContainerClick(evt) {
     
 
     const instance = basicLightbox.create(`
-    <img src="${selectedImage}" width="800" height="600">`)
+    <img src="${selectedImage}" width="1200" height="800">`)
     instance.show()
     
     galleryContainer.addEventListener("keydown",onModalWindowClose)
